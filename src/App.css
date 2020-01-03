@@ -42,15 +42,18 @@
 .der {
   float: right;
   cursor: pointer;
+  font-size: 2rem;
 }
 .izq {
   float: left;
   cursor: pointer;
+  font-size: 2rem;
 }
 .timer-session {
   grid-area: clk;
-  border: 1px solid white;
+  margin-bottom: 15px;
   width: 100%;
+  font-size: 1.5rem;
 }
 .button-panel {
   grid-area: stp;
@@ -66,4 +69,12 @@
 
 #reset {
   cursor: pointer;
+}
+p {
+  margin: 0;
+}
+#time-left {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
